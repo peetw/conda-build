@@ -100,3 +100,8 @@ jobs:
         with:
           name: Linux_replay-py-${{ matrix.python-version }}_${{ matrix.conda-version }}_${{ matrix.test-type }}
           path: pytest-replay/
+
+      - name: Upload Test Report HTML File
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'tests_result\test_report.html'
