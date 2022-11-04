@@ -104,5 +104,5 @@ jobs:
       - name: Upload Test Report HTML File
         uses: actions/upload-pages-artifact@v1
         with:
-          path: './test_report.html'
+          path: './tests_results'
       
