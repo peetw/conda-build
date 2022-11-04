@@ -100,7 +100,3 @@ jobs:
         with:
           name: Linux_replay-py-${{ matrix.python-version }}_${{ matrix.conda-version }}_${{ matrix.test-type }}
           path: pytest-replay/
-
-      - name: Open Test Result Report
-        run: |
-          open ./tests_result/test_report.html
