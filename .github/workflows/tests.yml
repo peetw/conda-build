@@ -368,7 +368,7 @@ jobs:
           
           echo "Preparing Testing Report Folders on Windows"
           mkdir -p ${{ github.workspace }}\\allure-results
-          mkdir -p ${{ github.workspace }}\\allure-reslusts/allure-reports
+          mkdir -p ${{ github.workspace }}\\allure-results/allure-reports
           mkdir -p ${{ github.workspace }}\\allure-results/allure-history
           mkdir -p ${{ github.workspace }}\\tests_results
 
